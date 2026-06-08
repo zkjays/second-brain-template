@@ -1,26 +1,25 @@
-# [À REMPLIR : nom de ton vault] — Second Cerveau
+# [FILL IN : your vault name] — Second Brain
 
-## Identité
-- Handle : [À REMPLIR : @tonhandle]
-- Rôle : [À REMPLIR : ex. "Builder solo, fondateur de X, créateur de contenu"]
-- Langue : toujours répondre en [À REMPLIR : français / english / español]
+## Identity
+- Handle : [FILL IN : @yourhandle]
+- Role : [FILL IN : e.g. "solo builder, founder of X, content creator"]
+- Language : always respond in [FILL IN : english / français / español]
 
-## Structure du vault
-- 00-inbox/ → sources brutes clippées, ne jamais modifier
-- 01-sources/ → notes structurées après ingestion
-- 02-knowledge/ → concepts maîtrisés
-- 03-content/ → angles, drafts, posts (stock/ = prêts, posts/ = publiés)
-- 04-decisions/ → décisions importantes
-- 05-projects/ → projets actifs
-- 06-system/ → système interne
+## Vault structure
+- 00-inbox/ → raw clips, never modify
+- 01-sources/ → structured notes after ingestion
+- 02-knowledge/ → mastered concepts
+- 03-content/ → post drafts and published archive
+- 04-decisions/ → important decisions
+- 05-projects/ → active projects
+- 06-system/ → sessions and live context
 
-## Règles
-- INGEST : structurer les notes de 00-inbox vers 01-sources
-- Ne jamais inventer de citations
-- Toujours citer la note source
-- Sauvegarder les synthèses dans le bon dossier
+## Rules
+- Never invent citations
+- Always cite the source note
+- Save summaries in the right folder
 
-## Commandes disponibles
-- /ingest → traiter les fichiers de 00-inbox vers 01-sources
-- /query → interroger le vault sur un sujet
-- /create-content → générer un post depuis le vault
+## Available commands
+- /ingest → process files from 00-inbox into 01-sources
+- /query → search the vault on a topic
+- /create-content → generate a post from the vault

@@ -1,75 +1,82 @@
-# Second Brain Template — Version Gratuite
+# Second Brain Template — Free Version
 
-Un système de notes personnel piloté par Claude AI.
-Tu clippes, Claude structure. Tu interroges, Claude répond depuis tes propres notes.
+A personal knowledge system powered by Claude AI.
+You clip, Claude structures. You ask, Claude answers from your own notes.
 
 ---
 
-## Ce que tu as ici
+## Download
+
+Click the green "Code" button → "Download ZIP" → extract the folder anywhere on your machine.
+
+Or with git : `git clone https://github.com/zkjays/second-brain-template.git`
+
+---
+
+## What you get
 
 ```
-ton-vault/
-├── 00-inbox/        → où tu colles tout ce que tu veux traiter
-├── 01-sources/      → notes structurées après ingestion
-├── 02-knowledge/    → concepts que tu as vraiment compris
-├── 03-content/
-│   ├── stock/       → posts prêts à publier
-│   └── posts/       → posts déjà publiés
-├── 04-decisions/    → tes décisions importantes documentées
-├── 05-projects/     → un fichier par projet actif
-├── 06-system/       → sessions, contexte live
-└── templates/       → modèles de notes
+your-second-brain/
+├── CLAUDE.md            ← fill this in first
+├── 00-inbox/            → paste everything here
+├── 01-sources/          → structured notes (Claude writes here)
+├── 02-knowledge/        → concepts you've mastered
+├── 03-content/          → post drafts and published archive
+├── 04-decisions/        → your important calls, documented
+├── 05-projects/         → one file per active project
+├── 06-system/           → sessions, live context
+└── templates/           → note templates
+    ├── source.md
+    └── content-post.md
 ```
 
 ---
 
-## Installation (15 minutes)
+## Setup (~15 min, all free)
 
-### 1. Obsidian — ton vault
+### 1. Obsidian — your reading room
+1. Download : obsidian.md/download
+2. Open Obsidian → "Open folder as vault"
+3. Select the folder you just downloaded
 
-1. Télécharge [obsidian.md](https://obsidian.md)
-2. Ouvre l'app → "Open folder as vault"
-3. Sélectionne le dossier que tu viens de télécharger
+### 2. A terminal — where Claude works
+- VS Code : download code.visualstudio.com → File → Open Folder → select your vault → open the integrated terminal
+- Or use any terminal (Windows Terminal, iTerm, PowerShell) and navigate to the folder
 
-### 2. VSCode — là où Claude travaille
-
-1. Télécharge [code.visualstudio.com](https://code.visualstudio.com)
-2. File → Open Folder → sélectionne ton vault
-
-### 3. Claude Code — l'agent
-
-1. Dans le terminal VSCode : `npm install -g @anthropic-ai/claude-code`
-2. Lance : `claude`
-3. Connecte ton compte [claude.ai](https://claude.ai)
+### 3. Claude Code — the agent
+1. In the terminal : `npm install -g @anthropic-ai/claude-code`
+2. Launch : `claude`
+3. Connect your account at claude.ai
 
 ---
 
-## Tes premières actions
+## First steps
 
-Une fois Claude Code lancé dans ton vault :
+Once Claude Code is running in your vault :
 
-1. **Configure ton identité** → ouvre `CLAUDE.md` et remplis les champs `[À REMPLIR]`
-2. **Colle une source** → copie un article ou tweet dans `00-inbox/` et dis à Claude : `/ingest`
-3. **Génère un post** → depuis la note ingérée, dis : `/create-content`
-
----
-
-## La différence avec la version complète
-
-La version gratuite te donne la structure.
-La version complète te donne le système qui tourne :
-
-- Setup automatique (Claude configure tout depuis 6 questions)
-- 5 commandes prêtes (`/ingest`, `/query`, `/weekly`, `/create-content`, `/compact-sessions`)
-- Règles d'économie de tokens (moins cher à utiliser)
-- Fichiers exemples dans chaque dossier
-- `context-live.md` — reprise instantanée entre sessions
-
-Disponible pour les builders de [THE DARKROOM](https://thedarkroom.xyz).
+1. Open CLAUDE.md → fill in the fields marked [FILL IN]
+2. Paste any article or tweet into 00-inbox/
+3. Type /ingest → Claude structures it into 01-sources/
+4. Type /create-content → Claude writes a post from your notes
 
 ---
 
-## Questions ?
+## Want the full system?
 
-GitHub Issues : [github.com/zkjays/second-brain-template](https://github.com/zkjays/second-brain-template)
-X : [@zkjays](https://x.com/zkjays)
+The free version gives you the structure.
+The complete version gives you the system that runs itself :
+
+- Automatic setup (Claude configures everything from 6 questions)
+- 5 pre-built commands (/ingest, /query, /weekly, /create-content, /compact-sessions)
+- Token economy rules (costs less to run)
+- Example files in every folder
+- context-live.md — instant session recovery
+
+Available for builders at thedarkroom.xyz
+
+---
+
+## Questions?
+
+X : @zkjays
+GitHub Issues : github.com/zkjays/second-brain-template
