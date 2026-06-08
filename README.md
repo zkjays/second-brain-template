@@ -61,6 +61,18 @@ Once Claude Code is running in your vault :
 
 ---
 
+## Upgrade to the full system
+
+Already using the free version? No need to start over.
+
+In Claude Code, type : `/upgrade`
+
+Claude will add all missing files without touching your existing notes.
+What gets added : 5 pre-built commands, 3 extra templates, context-live.md, token rules.
+What stays untouched : all your notes, your CLAUDE.md customizations, everything you've built.
+
+---
+
 ## Want the full system?
 
 The free version gives you the structure.
@@ -72,7 +84,7 @@ The complete version gives you the system that runs itself :
 - Example files in every folder
 - context-live.md — instant session recovery
 
-Available for builders at thedarkroom.xyz
+Launching end of this week at thedarkroom.xyz
 
 ---
 
