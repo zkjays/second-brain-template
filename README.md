@@ -1,4 +1,4 @@
-# Second Brain Template — Free Version
+# Second Brain Template - Free Version
 
 A personal knowledge system powered by Claude AI.
 You clip, Claude structures. You ask, Claude answers from your own notes.
